@@ -1,7 +1,7 @@
 <resources>
     <string name="app_name">ExchangeRates</string>
-    <string name="tab_text_1">Rates</string>
+    <string name="tab_text_1">Rates (in rubles)</string>
     <string name="tab_text_2">Convert</string>
     <string name="refreshed">Data has been updated</string>
-    <string name="converted_default">Enter a number...</string>
+    <string name="converted_default">Enter rubles...</string>
 </resources>

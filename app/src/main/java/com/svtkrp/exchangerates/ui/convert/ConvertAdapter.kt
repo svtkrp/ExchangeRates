@@ -9,7 +9,7 @@ import android.widget.TextView
 import com.svtkrp.exchangerates.R
 import com.svtkrp.exchangerates.Rate
 
-class ConvertAdapter(private val myContext: Context, rates: List<Rate>)
+class ConvertAdapter(private val myContext: Context, var rates: List<Rate>)
     : ArrayAdapter<Rate>(myContext, R.layout.spinner_item, rates) {
 
     override fun getView(position: Int, convertView: View?, parent: ViewGroup): View =

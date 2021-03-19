@@ -4,7 +4,7 @@
     <dimen name="appbar_padding">16dp</dimen>
     <dimen name="appbar_padding_top">8dp</dimen>
     <dimen name="rate_name_text">18sp</dimen>
-    <dimen name="rate_value_text">24sp</dimen>
+    <dimen name="rate_value_text">22sp</dimen>
     <dimen name="convert_text">18sp</dimen>
     <dimen name="spinner_margin_vertical">8dp</dimen>
     <dimen name="spinner_margin_horizontal">16dp</dimen>

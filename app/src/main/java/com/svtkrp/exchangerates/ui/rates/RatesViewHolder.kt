@@ -12,7 +12,7 @@ class RatesViewHolder(itemView: View) : RecyclerView.ViewHolder(itemView) {
     private val value: TextView = itemView.findViewById(R.id.rate_value)
 
     fun bind(rate: Rate) {
-        name.text = rate.name
+        name.text = rate.nominal.toString() + " " + rate.fullName + " (" + rate.name + ")"
         value.text = rate.value.toString()
     }
 
