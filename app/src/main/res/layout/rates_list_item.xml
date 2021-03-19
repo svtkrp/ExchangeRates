@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/rate_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.7"
+        android:layout_gravity="center_vertical"
+        android:textSize="@dimen/rate_name_text"
+        android:textColor="?attr/colorOnSurface"
+        android:textIsSelectable="true"
+        tools:text="@tools:sample/cities"/>
+
+    <TextView
+        android:id="@+id/rate_value"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.3"
+        android:layout_gravity="center_vertical"
+        android:gravity="end"
+        android:textSize="@dimen/rate_value_text"
+        android:textColor="?attr/colorPrimaryVariant"
+        android:textIsSelectable="true"
+        tools:text="@tools:sample/us_zipcodes"/>
+
+</LinearLayout>
